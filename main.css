@@ -1,5 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+/* Small devices (phones, less than 600px) */
+@media (max-width: 600px) {
+  .home-content h1 {
+    font-size: 36px;
+  }
+
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .home-content p {
+    font-size: 14px;
+  }
+
+  .btn-box {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+  }
+
+  .btn-box a {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .navbar a {
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  .home-sci {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+/* Medium devices (tablets, 600px to 900px) */
+@media (max-width: 900px) {
+  .header {
+    padding: 20px 5%;
+  }
+
+  .home {
+    padding: 0 5%;
+  }
+
+  .home-content h1 {
+    font-size: 48px;
+  }
+
+  .home-content h3 {
+    font-size: 28px;
+  }
+
+  .navbar a {
+    font-size: 17px;
+  }
+}
 
 *{
     margin: 0;
