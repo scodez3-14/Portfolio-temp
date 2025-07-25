@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-* {
-    transition: background 0.4s, color 0.4s, box-shadow 0.4s;
-}
-
-
 
 /* Small devices (phones, less than 600px) */
 @media (max-width: 600px) {
